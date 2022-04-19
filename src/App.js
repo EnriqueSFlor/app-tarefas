@@ -1,6 +1,5 @@
 import "./App.css";
 import FirstComponent from "./components/FirstComponent";
-import AnotherComponent from "./components/AnotherComponent";
 import Imagens from "./components/imagens";
 import Hooks from "./components/Hooks";
 import List from "./components/List";
@@ -14,7 +13,7 @@ function App() {
       <Imagens />
       <Hooks />
       <List />
-      <RenderCond />
+      <RenderCond x={6} />
     </div>
   );
 }

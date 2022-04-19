@@ -1,10 +1,8 @@
-const RenderCond = () => {
-  const x = 2;
-
+const RenderCond = (props) => {
   return (
     <div>
-      {x > 5 && <p>X é maior que 5</p>}
-      {x < 5 ? <p>X é menor que 5 </p> : <p>X é maior que 5</p>}
+      {props.x > 5 && <p>X é maior que 5</p>}
+      {props.x < 5 ? <p>X é menor que 5 </p> : <p>X é maior que 5</p>}
     </div>
   );
 };
